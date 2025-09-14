@@ -2,9 +2,7 @@ body{
   font-family: "Happy Monkey";
   color: #ffffff;
   text-align: center;  
-  /* background: #a2d2ff; */
-  background: linear-gradient(#a2d2ff, #EFB0C9);
-  
+  background: #283618;
 }
 
 .header {
@@ -20,7 +18,7 @@ h1, h2, h3, h4 p{
 #ed-img{  
   width: 150px;
   border-radius: 50%;
-  border: 6px solid #EFB0C9;
+  border: 6px solid #dda15e;
   
 }
 
@@ -40,7 +38,7 @@ h1, h2, h3, h4 p{
   margin: 0 auto;
   width: 400px;
   height: 400px;
-  border: 6px solid #EFB0C9;
+  border: 6px solid #606c38;
   border-radius: 10px;
   background-image: url("images/gift-box.jpg");
   background-size: cover;
@@ -78,14 +76,14 @@ h1, h2, h3, h4 p{
 }
 
 #bday-age{
-  background-color: #EFB0C9;
+  background-color: #bc6c25;
   padding: 6px 8px;
   margin: 10px 0;
   border-radius: 7px;
 }
 
 #bday-date{
-  background-color: #EFB0C9;
+  background-color: #bc6c25;
   padding: 6px 8px;
   border-radius: 7px;
   margin: 0;
