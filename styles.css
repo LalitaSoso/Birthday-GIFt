@@ -1,5 +1,6 @@
 body{
-  font-family: "Happy Monkey";
+  font-family: "Noto Sans JP", sans-serif;
+  text-transform: uppercase;
   color: #ffffff;
   text-align: center;  
   background: #283618;
@@ -11,14 +12,21 @@ body{
   align-items: center;
 }
 
-h1, h2, h3, h4 p{
-   text-shadow: 0px 0px 1px black;
+h1{
+  font-family: "Luckiest Guy", cursive;
+  font-size: 40px;
+}
+
+#bday-date{
+font-family: "UnifrakturCook", cursive;  
+font-size: 24px;
+text-transform: none;
 }
 
 #ed-img{  
-  width: 150px;
+  width: 300px;
   border-radius: 50%;
-  border: 6px solid #dda15e;
+  border: 6px solid #606c38;
   
 }
 
@@ -61,13 +69,9 @@ h1, h2, h3, h4 p{
 }
 
 #gift-img-cheers{
-  margin: 0 auto;
-  width: 400px;
   height: 200px;
-  border: 6px solid #EFB0C9;
-  border-radius: 10px;
   background-image: url("images/gift-box.jpg");
-  background-size: cover;
+  margin-bottom: 40px;
 }
 
 #gift-img-cheers:hover {
@@ -83,18 +87,8 @@ h1, h2, h3, h4 p{
 }
 
 #bday-date{
-  background-color: #bc6c25;
+  background-color: #dda15e;
   padding: 6px 8px;
   border-radius: 7px;
   margin: 0;
-}
-
-footer{
-  font-style: italic;
-  width: 400px;
-  margin: 40px auto;
-}
-
-a{
-color: #ffffff;  
 }
